@@ -26,7 +26,7 @@ export class EntrarComponent implements OnInit {
     this.auth.entrar(this.userLogin).subscribe({
       next: (resp: UserLogin) => {
         this.userLogin = resp;
-        alert('usuário logado com sucesso!');
+        //alert('usuário logado com sucesso!');
 
       environment.token = this.userLogin.token
       environment.nome = this.userLogin.nome
@@ -44,4 +44,17 @@ export class EntrarComponent implements OnInit {
      },
     });
   }
+
+  validaEmail() {
+    let regex = /.+\@.+\..+/
+    
+    if(this.userLogin.usuario.match(regex)) {
+      let txtEmail = (<HTMLDivElement>document.querySelector('#txtEmail'))
+      txtEmail.innerHTML = 'Email válido'
+    } else {
+      let txtEmail = (<HTMLDivElement>document.querySelector('#txtEmail'))
+      txtEmail.innerHTML = 'Email inválido'
+    }
+  }
+
 }

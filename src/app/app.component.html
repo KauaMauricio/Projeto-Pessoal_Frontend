@@ -1,1 +1,3 @@
-<router-outlet></router-outlet>
+<app-menu *ngIf="auth.logado()"></app-menu> <!-- O "ngIf" SEMPRE ESPERA UM TRUE OU FALSE -->
+<router-outlet></router-outlet> <!-- SÓ VAI MOSTRAR AS ROTAS QUE ESTÃO REFERENCIADAS NO APP-ROUTING -->
+<app-rodape *ngIf="auth.logado()"></app-rodape>

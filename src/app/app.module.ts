@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';                       //MÓDULOS
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';       //PARA NAVEGAR INTERNAMENTE ENTRE ROTAS
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';           //COMPONENTES
@@ -27,7 +28,10 @@ import { InicioComponent } from './inicio/inicio.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [{
+    provide: LocationStrategy,          //AJUDA O ANGULAR A NÃO SE PERDER NAS ROTAS
+    useClass: HashLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -37,11 +37,12 @@ export class CadastrarComponent implements OnInit {
     if(this.user.senha != this.confirmarSenha) {
       alert('As senhas não coincidem')
     } else {
+      console.log(this.user)
       this.authService.cadastrar(this.user).subscribe((resp: User) => {
         this.user = resp
+        this.router.navigate(['/entrar'])
+        alert('Usuário Cadastrado com sucesso!')
       })       //O ".SUBSCRIBE" VAI SOBRESCREVER O OBJETO TYPERSCRIPT E VAI TRANSFORMAR EM JSON (PARA QUE O SERVIDOR ENTENDA A REQUISIÇÃO)
-      this.router.navigate(['/entrar'])
-      alert('Usuário Cadastrado com sucesso!')
     }
   }
 

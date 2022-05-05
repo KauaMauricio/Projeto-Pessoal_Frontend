@@ -10,13 +10,13 @@ ul.social-network li {
 }
 
 .fa {
-    font-size: 35pt;
+    font-size: 32pt;
     color: white;
     padding: 10px;
 }
 
-.fa-facebook-official:hover {
-    color: #3b5998;
+.fa-brands:hover {
+    color: #1C93E3;
 }
 
 .fa-instagram:hover {
