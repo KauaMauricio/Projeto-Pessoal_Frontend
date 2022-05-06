@@ -1,0 +1,100 @@
+2022-05-06T01:33:55.823541+00:00 app[web.1]: ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+2022-05-06T01:33:55.823544+00:00 app[web.1]: 
+2022-05-06T01:33:55.825776+00:00 app[web.1]: 
+2022-05-06T01:33:55.825789+00:00 app[web.1]: Ô£ö Compiled successfully.
+2022-05-06T01:33:57.013398+00:00 app[web.1]: Ô£ö Browser application bundle generation complete.
+2022-05-06T01:33:57.024098+00:00 app[web.1]: 
+2022-05-06T01:33:57.024099+00:00 app[web.1]: 6 unchanged chunks
+2022-05-06T01:33:57.024100+00:00 app[web.1]: 
+2022-05-06T01:33:57.024120+00:00 app[web.1]: Build at: 2022-05-06T01:33:57.012Z - Hash: bc683143c92f591c - Time: 1030ms
+2022-05-06T01:33:57.024207+00:00 app[web.1]: 
+2022-05-06T01:33:57.024219+00:00 app[web.1]: Ô£ö Compiled successfully.
+2022-05-06T01:34:10.104196+00:00 heroku[web.1]: Process running mem=801M(147.2%)
+2022-05-06T01:34:10.107408+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2022-05-06T01:34:30.763908+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2022-05-06T01:34:30.919931+00:00 heroku[web.1]: Stopping process with SIGKILL
+2022-05-06T01:34:31.127270+00:00 heroku[web.1]: Process exited with status 137
+2022-05-06T01:34:31.180592+00:00 heroku[web.1]: State changed from starting to crashed
+2022-05-06T01:47:58.000000+00:00 app[api]: Build started by user kauaktdmauricio1@gmail.com
+2022-05-06T01:49:32.788455+00:00 app[api]: Deploy 1c5c7a3c by user kauaktdmauricio1@gmail.com
+2022-05-06T01:49:32.788455+00:00 app[api]: Release v12 created by user kauaktdmauricio1@gmail.com
+2022-05-06T01:49:33.088411+00:00 heroku[web.1]: State changed from crashed to starting
+2022-05-06T01:49:40.732258+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-05-06T01:49:42.000000+00:00 app[api]: Build succeeded
+2022-05-06T01:49:42.683864+00:00 app[web.1]: 
+2022-05-06T01:49:42.683873+00:00 app[web.1]: > blog-kaua@0.0.0 start
+2022-05-06T01:49:42.683873+00:00 app[web.1]: > ng serve
+2022-05-06T01:49:42.683873+00:00 app[web.1]: 
+2022-05-06T01:49:45.819628+00:00 app[web.1]: - Generating browser application bundles (phase: setup)...
+2022-05-06T01:50:07.137193+00:00 app[web.1]: Ô£ö Browser application bundle generation complete.
+2022-05-06T01:50:07.203506+00:00 app[web.1]: 
+2022-05-06T01:50:07.203510+00:00 app[web.1]: Initial Chunk Files   | Names         |  Raw Size
+2022-05-06T01:50:07.203510+00:00 app[web.1]: vendor.js             | vendor        |   2.34 MB |
+2022-05-06T01:50:07.203510+00:00 app[web.1]: scripts.js            | scripts       | 436.95 kB |
+2022-05-06T01:50:07.203510+00:00 app[web.1]: styles.css, styles.js | styles        | 318.00 kB |
+2022-05-06T01:50:07.203511+00:00 app[web.1]: polyfills.js          | polyfills     | 294.79 kB |
+2022-05-06T01:50:07.203511+00:00 app[web.1]: main.js               | main          |  58.04 kB |
+2022-05-06T01:50:07.203511+00:00 app[web.1]: runtime.js            | runtime       |   6.51 kB |
+2022-05-06T01:50:07.203512+00:00 app[web.1]: 
+2022-05-06T01:50:07.203512+00:00 app[web.1]: | Initial Total |   3.43 MB
+2022-05-06T01:50:07.203512+00:00 app[web.1]: 
+2022-05-06T01:50:07.203519+00:00 app[web.1]: Build at: 2022-05-06T01:50:07.125Z - Hash: bc683143c92f591c - Time: 20972ms
+2022-05-06T01:50:07.203737+00:00 app[web.1]: 
+2022-05-06T01:50:07.203738+00:00 app[web.1]: ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+2022-05-06T01:50:07.203748+00:00 app[web.1]: 
+2022-05-06T01:50:07.204694+00:00 app[web.1]: 
+2022-05-06T01:50:07.204707+00:00 app[web.1]: Ô£ö Compiled successfully.
+2022-05-06T01:50:07.765585+00:00 app[web.1]: Ô£ö Browser application bundle generation complete.
+2022-05-06T01:50:07.777642+00:00 app[web.1]: 
+2022-05-06T01:50:07.777644+00:00 app[web.1]: 6 unchanged chunks
+2022-05-06T01:50:07.777644+00:00 app[web.1]: 
+2022-05-06T01:50:07.777668+00:00 app[web.1]: Build at: 2022-05-06T01:50:07.764Z - Hash: bc683143c92f591c - Time: 456ms
+2022-05-06T01:50:07.777782+00:00 app[web.1]: 
+2022-05-06T01:50:07.777795+00:00 app[web.1]: Ô£ö Compiled successfully.
+2022-05-06T01:50:20.950270+00:00 heroku[web.1]: Process running mem=638M(122.3%)
+2022-05-06T01:50:20.978511+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2022-05-06T01:50:41.287190+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2022-05-06T01:50:41.320276+00:00 heroku[web.1]: Stopping process with SIGKILL
+2022-05-06T01:50:41.477340+00:00 heroku[web.1]: Process exited with status 137
+2022-05-06T01:50:41.588555+00:00 heroku[web.1]: State changed from starting to crashed
+2022-05-06T01:50:41.605443+00:00 heroku[web.1]: State changed from crashed to starting
+2022-05-06T01:50:49.703287+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-05-06T01:50:51.405015+00:00 app[web.1]: 
+2022-05-06T01:50:51.405032+00:00 app[web.1]: > blog-kaua@0.0.0 start
+2022-05-06T01:50:51.405032+00:00 app[web.1]: > ng serve
+2022-05-06T01:50:51.405032+00:00 app[web.1]: 
+2022-05-06T01:50:54.672822+00:00 app[web.1]: - Generating browser application bundles (phase: setup)...
+2022-05-06T01:51:19.008001+00:00 app[web.1]: Ô£ö Browser application bundle generation complete.
+2022-05-06T01:51:19.214187+00:00 app[web.1]: 
+2022-05-06T01:51:19.214189+00:00 app[web.1]: Initial Chunk Files   | Names         |  Raw Size
+2022-05-06T01:51:19.214189+00:00 app[web.1]: vendor.js             | vendor        |   2.34 MB |
+2022-05-06T01:51:19.214190+00:00 app[web.1]: scripts.js            | scripts       | 436.95 kB |
+2022-05-06T01:51:19.214190+00:00 app[web.1]: styles.css, styles.js | styles        | 318.00 kB |
+2022-05-06T01:51:19.214190+00:00 app[web.1]: polyfills.js          | polyfills     | 294.79 kB |
+2022-05-06T01:51:19.214190+00:00 app[web.1]: main.js               | main          |  58.04 kB |
+2022-05-06T01:51:19.214191+00:00 app[web.1]: runtime.js            | runtime       |   6.51 kB |
+2022-05-06T01:51:19.214191+00:00 app[web.1]: 
+2022-05-06T01:51:19.214191+00:00 app[web.1]: | Initial Total |   3.43 MB
+2022-05-06T01:51:19.214192+00:00 app[web.1]: 
+2022-05-06T01:51:19.214320+00:00 app[web.1]: Build at: 2022-05-06T01:51:18.826Z - Hash: bc683143c92f591c - Time: 23460ms
+2022-05-06T01:51:19.214883+00:00 app[web.1]: 
+2022-05-06T01:51:19.214901+00:00 app[web.1]: ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+2022-05-06T01:51:19.214906+00:00 app[web.1]: 
+2022-05-06T01:51:19.216717+00:00 app[web.1]: 
+2022-05-06T01:51:19.216730+00:00 app[web.1]: Ô£ö Compiled successfully.
+2022-05-06T01:51:20.128406+00:00 app[web.1]: Ô£ö Browser application bundle generation complete.
+2022-05-06T01:51:20.139193+00:00 app[web.1]: 
+2022-05-06T01:51:20.139195+00:00 app[web.1]: 6 unchanged chunks
+2022-05-06T01:51:20.139195+00:00 app[web.1]: 
+2022-05-06T01:51:20.139204+00:00 app[web.1]: Build at: 2022-05-06T01:51:20.125Z - Hash: bc683143c92f591c - Time: 744ms
+2022-05-06T01:51:20.139304+00:00 app[web.1]: 
+2022-05-06T01:51:20.139314+00:00 app[web.1]: Ô£ö Compiled successfully.
+2022-05-06T01:51:29.130776+00:00 heroku[web.1]: Process running mem=751M(140.2%)
+2022-05-06T01:51:29.149531+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2022-05-06T01:51:50.243502+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2022-05-06T01:51:50.280553+00:00 heroku[web.1]: Stopping process with SIGKILL
+2022-05-06T01:51:50.295746+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2022-05-06T01:51:50.456303+00:00 heroku[web.1]: Process exited with status 22
+2022-05-06T01:51:50.826768+00:00 heroku[web.1]: State changed from starting to crashed
+2022-05-06T02:02:55.322491+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=app-kaua.herokuapp.com request_id=f808da27-95e7-4857-b76c-460b94eb4b89 fwd="189.54.216.10" dyno= connect= service= status=503 bytes= protocol=https
+2022-05-06T02:02:55.775031+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=app-kaua.herokuapp.com request_id=794161e9-a5e8-4841-a521-328a45f30264 fwd="189.54.216.10" dyno= connect= service= status=503 bytes= protocol=https
