@@ -1,67 +1,77 @@
-<div class="container-fluid">
+<div class="container">
 
-    <div class="row">
+  <div class="content first-content">
 
-        <div class="col-md-6" id="imgBg"></div>
+      <div class="first-column">
+          <img src="../../assets/discussion-rafiki.png" width="100%" height="100%" alt="login image">
+      </div>
 
-        <div class="col-md-6 mt-5 mb-5">
 
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-10">
+      <div class="second-column">
+          <h2 class="title title-second">Register</h2>
 
-                    <h1 class="text-center">Cadastro</h1>
+          <p class="description description-second">Crie sua conta | Create your account</p>
 
-                    <form>
-                        <div class="form-group">
-                            <label for="nome">Nome:</label>                     <!-- ngModel fica lendo tudo que está sendo escrito -->
-                            <input [(ngModel)]="user.nome" type="text" class="form-control" placeholder="Seu nome..." name="nome" id="nome">
-                        </div>
+          <form class="form">
 
-                        <div class="form-group">
-                            <label for="usuario">Usuário:</label>
-                            <input [(ngModel)]="user.usuario" type="text" class="form-control" placeholder="Seu usuário..." name="usuario"
-                                id="usuario">
-                        </div>
+              <div class="label-input" for="nome">
+                  <i class="far fa-user icon-modify"></i>  <!-- ngModel fica lendo tudo que está sendo escrito -->
+                  <input  [(ngModel)]="user.nome"
+                   type="text"
+                   class="form-control"
+                   placeholder="Seu nome..."
+                   name="nome"
+                   id="nome" />
+              </div>
 
-                        <div class="form-group">
-                            <label for="foto">Link da foto:</label>
-                            <input [(ngModel)]="user.foto" type="text" class="form-control" placeholder="Link da sua foto..." name="foto"
-                                id="foto">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="senha">Senha:</label>
-                            <input (input)="confirmSenha($event)" type="password" class="form-control" placeholder="Sua senha..." name="senha" id="senha">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="confirmSenha">Confirmar senha:</label>
-                            <input [(ngModel)]="user.senha" type="password" class="form-control" placeholder="Confirme sua senha..."
-                                name="confirmSenha" id="confirmSenha">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="tipo">Tipo de usuário:</label>
-                            <select class="form-control" name="tipo" id="tipo" (change)="tipoUser($event)">
-                                <option>Selecione o tipo de usuário:</option>
-                                <option value="normal">Normal</option>
-                                <option value="adm">Administrador</option>
-                            </select>
-                        </div>
-
-                        <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-danger mr-4" routerLink="/entrar">Cancelar</button>
-                            <button type="submit" class="btn btn-success" (click)="cadastrar()">Cadastrar</button>
-                        </div>
-
-                    </form>
-
-                </div>
-
+              <div class="label-input" for="usuario">
+                <i class="far fa-user icon-modify"></i>
+                <input  [(ngModel)]="user.usuario"
+                 type="text"
+                 class="form-control"
+                 placeholder="Seu usuário..."
+                 name="usuario"
+                 id="usuario" />
             </div>
 
-        </div>
+              <div class="label-input" for="foto">
+                <i class="far fa-user icon-modify"></i>
+                  <input  [(ngModel)]="user.foto"
+                  type="text" class="form-control"
+                  placeholder="Link da sua foto..."
+                  name="foto"
+                  id="foto" />
+              </div>
 
-    </div>
+              <div class="label-input" for="senha">
+                <i class="fas fa-lock icon-modify"></i>
+                <input (input)="confirmSenha($event)"
+                type="password"
+                class="form-control"
+                placeholder="Sua senha..."
+                name="senha"
+                id="senha" />
+              </div>
 
-</div>
+              <div class="label-input" for="confirmSenha">
+                  <i class="fas fa-lock icon-modify"></i>
+                  <input [(ngModel)]="user.senha"
+                  type="password"
+                  class="form-control"
+                  placeholder="Confirme sua senha..."
+                  name="confirmSenha"
+                  id="confirmSenha" />
+              </div>
+
+              <hr class="mt-3">
+
+              <div class="botoes">
+              <button class="btn btn-danger" type="submit" routerLink="/entrar">Cancel</button>
+              <button class="btn btn-second" type="submit" (click)="cadastrar()">register</button>
+              </div>
+
+          </form>
+
+      </div><!-- second column -->
+  </div><!-- first content -->
+</div><!-- container -->
