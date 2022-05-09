@@ -10,7 +10,7 @@
 
         <div class="d-flex justify-content-around">
           <button class="btn btn-outline-light px-5" data-toggle="modal" data-target="#novaPostagemModal">Nova Postagem</button>
-          <button class="btn btn-light px-5">Ver Postagens</button>
+          <a class="btn btn-light px-5" href="#postagens">Ver Postagens</a>
         </div>
       </div>
 
@@ -27,16 +27,16 @@
 
       <!-- ------------------------ ÁREA DE POSTAGENS ------------------------ -->
 
-<div class="container mt-3">
+<div class="container mt-3" id="postagens">
   <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
-      <a class="nav-link text-dark active" id="todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab" aria-controls="todasPostagens" aria-selected="true">Todas as postagens</a>
+      <a class="nav-link text-dark active font-weight-bold" id="todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab" aria-controls="todasPostagens" aria-selected="true">Todas as postagens</a>
     </li>
     <li class="nav-item" role="presentation">
-      <a class="nav-link text-dark" id="minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens" role="tab" aria-controls="minhasPostagens" aria-selected="false">Minhas postagens</a>
+      <a class="nav-link text-dark font-weight-bold" id="minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens" role="tab" aria-controls="minhasPostagens" aria-selected="false">Minhas postagens</a>
     </li>
     <li class="nav-item" role="presentation">
-      <a class="nav-link text-dark" id="postagensTema-tab" data-toggle="tab" href="#postagensTema" role="tab" aria-controls="postagensTema" aria-selected="false">Postagens por tema</a>
+      <a class="nav-link text-dark font-weight-bold" id="postagensTema-tab" data-toggle="tab" href="#postagensTema" role="tab" aria-controls="postagensTema" aria-selected="false">Postagens por tema</a>
     </li>
   </ul>
   <div class="tab-content" id="myTabContent">
@@ -53,7 +53,7 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Nova postagem</h5>
+        <h5 class="modal-title" id="tituloModal">Nova postagem</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
