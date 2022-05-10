@@ -38,7 +38,7 @@ export class TemaEditComponent implements OnInit {
     this.temaService.putTema(this.tema).subscribe((resp: Tema) => {
       this.tema = resp
       alert('Tema Atualizado com Sucesso!')
-      this.router.navigate(['/tema'])
+      this.router.navigate(['/temas']) //AQUI ESTÁ REFERENCIANDO '/TEMAS' DO BACKEND OU DA PASTA TEMA ?
     })
   }
 }
